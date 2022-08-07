@@ -1,0 +1,8 @@
+{
+  "/api/*": {
+    "target": "http://restapi.adequateshop.com",
+    "secure": false,
+    "changeOrigin": true,
+    "logLevel": "debug"
+  }
+}
