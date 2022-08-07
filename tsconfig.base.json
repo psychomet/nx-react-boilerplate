@@ -16,7 +16,10 @@
     "strictNullChecks": false,
     "noImplicitAny": false,
     "baseUrl": ".",
-    "paths": {}
+    "paths": {
+      "@common/interfaces": ["libs/common-lib/src/lib/interfaces/index.ts"],
+      "@common/enums": ["libs/common-lib/src/lib/enums/index.ts"]
+    }
   },
   "exclude": ["node_modules", "tmp"]
 }
